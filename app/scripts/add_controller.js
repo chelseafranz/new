@@ -6,7 +6,7 @@
 
 
     $scope.addList = function () {
-      console.log('edit');
+      console.log('edit.');
       $http.post(appUrl, $scope.post).success( function (data) {
         $location.path('/cities');
       });

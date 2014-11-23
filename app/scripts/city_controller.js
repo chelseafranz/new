@@ -7,7 +7,7 @@
         $scope.post= data;
         console.log(data)
       }).error(function(data){
-        alert('error');
+        alert('error!');
       })
 
  }]);
