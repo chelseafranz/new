@@ -10,17 +10,17 @@
 	
 		$routeProvider.when('/', {
 			controller: 'BigListController',
-			templateUrl: 'templates/add.html'
+			templateUrl: 'add.html'
 		});
 
 		$routeProvider.when('/cities', {
 			controller:'CityController',
-			templateUrl: 'templates/sidebar.html'
+			templateUrl: 'sidebar.html'
 		});
 
 		$routeProvider.when('/city/:id',{
 			controller: 'OneController',
-			templateUrl:'templates/one.html'
+			templateUrl:'one.html'
 		})
 		
 		});
