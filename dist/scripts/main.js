@@ -34,7 +34,7 @@
 
 
     $scope.addList = function () {
-      console.log('edit');
+      console.log('edit.');
       $http.post(appUrl, $scope.post).success( function (data) {
         $location.path('/cities');
       });
@@ -58,7 +58,7 @@
         $scope.post= data;
         console.log(data)
       }).error(function(data){
-        alert('error');
+        alert('error!');
       })
 
  }]);
